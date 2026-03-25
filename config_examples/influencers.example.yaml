@@ -1,0 +1,54 @@
+# ============================================================
+# LinkedIn Autopilot - Influencer Monitoring Configuration
+# ============================================================
+# The Trend Scout team monitors these influencers for hooks,
+# frameworks, and content patterns to inspire your posts.
+# ============================================================
+
+# --- Monitoring Settings ---
+monitor_frequency: "daily"               # daily | twice_daily | hourly
+extract_hooks: true                      # Extract opening hooks from posts
+extract_frameworks: true                 # Extract frameworks and templates
+
+# --- Influencer List ---
+# Priority: high = always monitor, medium = daily, low = weekly
+influencers:
+  - name: "Alex Hormozi"
+    topics: ["offers", "scaling", "value", "lead generation"]
+    priority: "high"
+
+  - name: "Justin Welsh"
+    topics: ["solopreneur", "LinkedIn growth", "systems", "content"]
+    priority: "high"
+
+  - name: "Sahil Bloom"
+    topics: ["frameworks", "mental models", "growth", "curiosity"]
+    priority: "high"
+
+  - name: "Dickie Bush"
+    topics: ["writing", "atomic essays", "creator economy"]
+    priority: "high"
+
+  - name: "Nicolas Cole"
+    topics: ["digital writing", "category design", "ghostwriting"]
+    priority: "medium"
+
+  - name: "Dan Koe"
+    topics: ["one-person business", "philosophy", "education"]
+    priority: "medium"
+
+  - name: "Codie Sanchez"
+    topics: ["acquisitions", "boring businesses", "wealth"]
+    priority: "medium"
+
+  - name: "Lenny Rachitsky"
+    topics: ["product management", "growth", "hiring"]
+    priority: "medium"
+
+  - name: "Shaan Puri"
+    topics: ["business ideas", "startups", "trends"]
+    priority: "low"
+
+  - name: "George Ten"
+    topics: ["fascinations", "hooks", "copywriting"]
+    priority: "low"

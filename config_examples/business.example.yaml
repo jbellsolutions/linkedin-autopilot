@@ -1,0 +1,106 @@
+# ============================================================
+# LinkedIn Autopilot - Business Configuration
+# ============================================================
+# This file defines your business identity, positioning,
+# content voice, and strategy. The AI agents use this to
+# generate on-brand content that sounds like you.
+# ============================================================
+
+# --- Business Identity ---
+# Core business information used across all content
+business_name: "CloudScale AI"           # Your company/business name
+brand: "CloudScale"                      # Short brand handle (used in posts)
+owner_name: "Sarah Chen"                 # Your name (the personal brand)
+future_brand: ""                         # If rebranding, put future name here
+
+# --- Contact Information ---
+contact:
+  email: "sarah@cloudscale.io"           # Contact email for leads
+  website: "https://cloudscale.io"       # Your website
+  linkedin: "https://linkedin.com/in/sarahchen-cloudscale"  # LinkedIn profile URL
+
+# --- Positioning ---
+# The core message and angle for all content
+positioning:
+  core_message: "I help B2B SaaS companies go from $1M to $10M ARR with product-led growth"
+  unique_angle: "Former engineer turned growth leader — I speak both code and revenue"
+
+# --- Primary Offer ---
+# What you're ultimately selling (keeps CTAs aligned)
+primary_offer:
+  product: "PLG Growth Accelerator"
+  price: "$5,000/month"
+  description: "Done-with-you product-led growth program for B2B SaaS (6-month engagement)"
+
+# --- Case Studies ---
+# Real results to reference in content. Add up to 10.
+# The AI will weave these into posts naturally.
+case_studies:
+  - title: "FinTech SaaS PLG Overhaul"
+    result: "4.2x trial-to-paid conversion in 90 days"
+    context: "Rebuilt onboarding flow with progressive activation milestones"
+  - title: "DevTool Self-Serve Launch"
+    result: "$2.3M ARR from self-serve in 8 months"
+    context: "Launched usage-based pricing with free tier and viral loops"
+  - title: "Enterprise PLG Motion"
+    result: "Cut sales cycle from 90 to 21 days"
+    context: "Bottom-up adoption strategy that turned users into champions"
+
+# --- Voice Configuration ---
+# How the AI writes as you. Be specific — this shapes every post.
+voice:
+  personality: "Data-driven and direct. I back every opinion with numbers. Dry humor welcome."
+  tone: "professional"                   # professional | conversational | bold | educational
+  perspective: "first_person"            # first_person | third_person | we
+
+# --- Copywriter DNA ---
+# The writing influences that shape your content style.
+# These are studied and emulated by the AI agents.
+copywriter_dna_emphasis:
+  - "Alex Hormozi - value stacking, grand slam offers"
+  - "Justin Welsh - solopreneur LinkedIn growth"
+  - "Dickie Bush - atomic essay framework"
+  - "Nicolas Cole - digital writing, category design"
+  - "Sahil Bloom - curiosity-driven frameworks"
+  - "Dan Koe - one-person business philosophy"
+  - "George Ten - fascinations and hooks"
+  - "Evaldo Albuquerque - big idea, belief shifting"
+  - "Gary Halbert - direct response, urgency"
+
+# --- Content Philosophy ---
+# Distribution of content types (should add up to 100)
+content_philosophy:
+  value_posts: 40                        # Educational, frameworks, how-tos
+  authority_posts: 25                    # Case studies, results, opinions
+  engagement_posts: 20                   # Questions, polls, hot takes
+  promotional_posts: 15                  # Soft CTAs, offers, lead magnets
+
+# --- CTA Philosophy ---
+# How calls-to-action are handled in your content
+cta_philosophy:
+  style: "soft"                          # soft | medium | direct
+  rules:
+    - "No hashtags ever"
+    - "No hard sells in feed posts"
+    - "Soft CTAs only: 'DM me X' or 'Comment Y for Z'"
+    - "Let value do the selling"
+
+# --- LinkedIn 2026 Algorithm Rules ---
+# Platform-specific optimizations the agents follow
+linkedin_2026_rules:
+  saves_over_likes: true                 # Optimize for saves (highest signal)
+  carousel_priority: true                # Carousels get more reach
+  newsletter_integration: true           # Cross-promote newsletter
+  profile_alignment: "360_brew"          # Ensure profile matches content
+
+# --- Content Themes ---
+# Topics the AI will create content around
+content_themes:
+  - "Product-led growth strategies"
+  - "SaaS metrics and benchmarks"
+  - "Building and shipping fast"
+  - "Engineering culture and hiring"
+  - "Fundraising and bootstrapping"
+
+# --- Target Audience ---
+target_audience: "SaaS founders, CTOs, product leaders, and tech investors"
